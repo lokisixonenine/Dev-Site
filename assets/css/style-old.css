@@ -15,25 +15,15 @@
 .header {
     height: 100px;
     width: 960px;
-    padding: 10px;
     background-color: white;
-    position: relative;
 }
 
 .inner-Div {
-    height: 65%;
+    height: 1000px;
     width: 960px;
     padding: 10px;
     background-color: white;
     margin: 0 auto;
-    position: absolute;
-}
-
-.bioImage {
-    height: 200px;
-    width: 200px;
-    float: left;
-    padding: 5px;
 }
 
 h1 {
@@ -63,9 +53,7 @@ nav {
 footer {
     text-align: center;
     background-color: white;
-    height: 25px;
+    height: 30px;
     width: 960px;
-    padding: 10px;
-    position: fixed;
-    bottom:0;
+    padding: 0 auto;
 }
