@@ -1,4 +1,3 @@
-
 /* Styling guide:
 
 * Teal color (used for headings and backgrounds): `#4aaaa5`
@@ -13,21 +12,48 @@
 * For heading fonts use `font-family: 'Georgia', Times, 'Times New Roman', serif;`
 * For all other fonts use `'Arial', 'Helvetica Neue', Helvetica, sans-serif;`
 */
+.header {
+    height: 100px;
+    width: 960px;
+    background-color: white;
+}
+
+.inner-Div {
+    height: 1000px;
+    width: 960px;
+    padding: 10px;
+    background-color: white;
+    margin: 0 auto;
+}
 
 h1 {
     background-color: #4aaaa5;
     width: 200px;
     text-align: center;
-    color: white; 
+    color: white;
     padding: 15px;
     margin: 15px;
+    float: left;
 }
 
 h2 {
-    color:#4aaaa5;
+    color: #4aaaa5;
 }
 
-body{
-    background-color: #ffffff;
+body {
+    background-color: lightgrey;
 }
 
+nav {
+    float: right;
+    margin: 0 auto;
+    padding: 45px;
+}
+
+footer {
+    text-align: center;
+    background-color: white;
+    height: 30px;
+    width: 960px;
+    padding: 0 auto;
+}
